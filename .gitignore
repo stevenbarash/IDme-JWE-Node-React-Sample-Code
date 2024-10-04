@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,4 +23,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.pem
+
+# Environment variables
+.env
+
+# Generated keys and certificates
+backend/private_key.pem
+backend/public_key.pem
+backend/certificate.pem
+backend/key_id.txt

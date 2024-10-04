@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "npm start",
+    "start": "npm run start:frontend & npm run start:backend",
+    "start:frontend": "vite",
     "start:backend": "cd backend && node server.js"
   },
   "dependencies": {

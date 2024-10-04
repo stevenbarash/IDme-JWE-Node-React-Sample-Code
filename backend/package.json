@@ -4,7 +4,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "generate-keys": "node generate-keys.js"
   },
   "keywords": [],
   "author": "",
@@ -21,8 +22,5 @@
     "node-jose": "^2.2.0",
     "passport": "^0.7.0",
     "passport-oauth2": "^1.8.0"
-  },
-  "devDependencies": {
-    "concurrently": "^9.0.1"
   }
 }
