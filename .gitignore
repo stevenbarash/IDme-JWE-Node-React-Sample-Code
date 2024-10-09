@@ -26,7 +26,7 @@ dist-ssr
 
 # Environment variables
 .env
-
+backend/.env
 # Generated keys and certificates
 backend/private_key.pem
 backend/public_key.pem
